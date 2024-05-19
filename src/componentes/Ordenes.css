@@ -22,7 +22,7 @@ body{
     font-style: normal;
 }
 
-.primeraClaseDashboard{
+.primeraClaseOrdenes{
     color: black;
     background-color: lightgray;
     position: fixed;
@@ -35,48 +35,28 @@ body{
     padding-bottom: 5px;
 }
 
-.primeraClaseDashboard p{
-    text-align: left;
-}
-
-.primeraClaseDashboard a{
-    float: right;
-    color: black;
-}
-
-.datos1{
-    background-color: lightgray;
-    padding: 2%;
-    font-size: medium;
+.buscadorOrdenes{
+    background-color: white;
+    border-radius: 10px;
+    border-color: gray;
     position: fixed;
+    top: 140px;
+    padding: 10px;
     left: 22%;
-    top: 150px;
-    width: 18%;
-    text-align: center;
-}
-
-.datos2{
-    background-color: lightgray;
-    padding: 2%;
-    font-size: medium;
-    position: fixed;
-    left: 48.5%;
-    top: 150px;
-    width: 18%;
-    text-align: center;
-}
-
-.datos3{
-    background-color: lightgray;
-    padding: 2%;
-    font-size: medium;
-    position: fixed;
-    left: 75%;
-    top: 150px;
-    width: 18%;
-    text-align: center;
+    width: 75%;
+    font-style: italic;
 }
 
 .principal{
-    font-size: 50px;
+    background-color: white;
+    position: fixed;
+    left: 22%;
+    top: 200px;
+    padding: 20px;
+    width: 73%;
+    height: 58%;
+}
+
+.principal table{
+    width: 100%;
 }

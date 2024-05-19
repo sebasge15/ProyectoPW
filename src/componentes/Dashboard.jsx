@@ -4,9 +4,10 @@ import './Dashboard.css'
 
 function Dashboard(){
     return(
+        <body>
         <div>
-            <div className='sidebar'>
-                <p>Admin</p>
+            <div class='sidebar'>
+                <h4>Admin</h4>
                 <p><a href='#'>Dashboard</a></p>
                 <p><a href='#'>Usuarios registrados</a></p>
                 <p><a href='#'>Productos</a></p>
@@ -14,25 +15,26 @@ function Dashboard(){
                 <p><a href='#'>Productos más vendidos</a></p>
                 <p><a href='#'>Series</a></p>
             </div>
-            <div className='primeraClaseDashboard'>
-                <p>Dashboard</p>
-                <p><a href='#'>Cambiar Fecha o Periodo</a></p>
+            <div class='primeraClaseDashboard'>
+                <p>Dashboard
+                <a href='#'>Cambiar Fecha o Periodo</a></p>
             </div>
             <div>
-                <div className='datos'>
-                    <p className='principal'>68</p>
+                <div class='datos1'>
+                    <p class='principal'>68</p>
                     <p>Órdenes del día de hoy</p>
                 </div>
-                <div className='datos'>
-                    <p className='principal'>12</p>
+                <div class='datos2'>
+                    <p class='principal'>12</p>
                     <p>Usuarios nuevos</p>
                 </div>
-                <div className='datos'>
-                    <p className='principal'>S/ 13,500.00</p>
+                <div class='datos3'>
+                    <p class='principal'>S/ 13,500.00</p>
                     <p>Ingresos de hoy</p>
                 </div>
             </div>
         </div>
+    </body>
     )
 }
 
