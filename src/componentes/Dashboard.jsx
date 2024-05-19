@@ -6,8 +6,8 @@ function Dashboard(){
     return(
         <div>
             <div className='sidebar'>
-                <p id='admin'>Admin</p>
-                <p>Dashboard</p>
+                <p>Admin</p>
+                <p><a href='#'>Dashboard</a></p>
                 <p><a href='#'>Usuarios registrados</a></p>
                 <p><a href='#'>Productos</a></p>
                 <p><a href='#'>Órdenes</a></p>
