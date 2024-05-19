@@ -1,8 +1,8 @@
 import React from 'react';
-import './Ordenes.css'
+import './Usuarios.css'
 
 
-function Ordenes(){
+function Usuarios(){
     return(
         <body>
         <div>
@@ -15,40 +15,40 @@ function Ordenes(){
                 <p><a href='#'>Productos más vendidos</a></p>
                 <p><a href='#'>Series</a></p>
             </div>
-            <div class='primeraClaseOrdenes'>
-                <p>Órdenes</p>
+            <div class='primeraClaseUsuarios'>
+                <p>Usuarios Registrados</p>
             </div>
             <div>
-                <input class="buscadorOrdenes" type="text" placeholder="Buscar nombre o apellido de usuario o nro de órden..." id="buscadorOrdenes" name="buscador"/>
+                <input class="buscadorUsuarios" type="text" placeholder="Buscar por correo, nombre o apellidos..." id="buscador" name="buscador"/>
             </div>
             <div class="principal">
                 <table>
                     <tr>
                         <th>ID</th>
-                        <th>Usuario</th>
-                        <th>Fecha de Orden</th>
-                        <th>Total</th>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
                         <th>Correo</th>
+                        <th>Fecha de Registro</th>
                         <th>Estado</th>
                         <th>Acciones</th>
                     </tr>
                     <tr>
                         <td>1</td>
-                        <td>Anita Sanchez</td>
+                        <td>Antonio</td>
+                        <td>Lopez</td>
+                        <td>correo@sanchez.com</td>
                         <td>11/02/2024</td>
-                        <td>128.90</td>
-                        <td>anita12@correo.com</td>
-                        <td>Entregado</td>
-                        <td>Ver</td>
+                        <td>Inactivo</td>
+                        <td>Ver | Activar</td>
                     </tr>
                     <tr>
-                        <td>123</td>
-                        <td>Anita Sanchez</td>
-                        <td>02/02/2023</td>
-                        <td>38.50</td>
+                        <td>1234</td>
+                        <td>Anita</td>
+                        <td>Sanchez</td>
                         <td>anita12@correo.com</td>
-                        <td>Entregado</td>
-                        <td>Ver</td>
+                        <td>02/02/2023</td>
+                        <td>Activo</td>
+                        <td>Ver | Desactivar</td>
                     </tr>
                 </table>
             </div>
@@ -57,4 +57,4 @@ function Ordenes(){
     )
 }
 
-export default Ordenes
+export default Usuarios
